@@ -2,7 +2,6 @@ body{
     margin: 0;
     font-size: 1.2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    /* background-image: url(/images/mainbackground.png); */
     background-size: 50rem;
     color: rgb(245, 245, 245);
     overflow:auto;    
@@ -116,14 +115,10 @@ body{
     
     text-rendering: optimizeLegibility;
     
-    /* transition: ease-in-out;
-    animation: contactshrink 0.8s forwards; */
-
     transition: transform 0.4s;
 }
 
 .ContactButton:hover{
-    /* animation: contactgrow 0.5s forwards;  */
     transform: scale(1.4);
     filter: drop-shadow(0 0 2rem rgba(190, 190, 190, 0.5));  
 }
@@ -137,26 +132,7 @@ body{
     color: rgb(255, 255, 255);
 }
 
-/* @keyframes contactshrink{
-    0%{
-        transform: scale(1.4);
-    }
-    100% {
-        transform: scale(1);
-    }
-}
-
-@keyframes contactgrow {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.4);
-    }
-} */
-
 .MiddleContainer{
-    /* background-image: url(/images/mainbackground_bright.png); */
     background-size: 40 rem;
 
     overflow: hidden;
@@ -337,7 +313,6 @@ body{
     padding: .4rem;  
     border-radius: 0.9rem;
 
-    /* animation: imageshrink 0.5s forwards; */
     z-index: 1;
 
     transition: all 0.3s;
@@ -345,34 +320,11 @@ body{
 }
 
 .artimage:hover{
-    /* animation: imagegrow 0.5s forwards; */
     transform: scale(1.18);
     border-radius: 2rem;
     z-index: 999;
     filter: drop-shadow(0 0 2rem rgba(255, 255, 255, 0.295));  
 }
-
-/* @keyframes imagegrow{
-    0% {
-        transform: scale(1);
-        border-radius: 0.9rem;
-    }
-    100% {
-        transform: scale(1.18);
-        border-radius: 2rem;
-    }
-}
-
-@keyframes imageshrink{
-    0% {
-        transform: scale(1.18);
-        border-radius: 2rem;
-    }
-    100% {
-        transform: scale(1);
-        border-radius: 0.9rem;
-    }
-} */
 
 .artimages{
     transition: 0.15s all ease-in-out;
