@@ -1,4 +1,4 @@
-const initialTab = "Models&VFX";
+const initialTab = "Skills";
 
 // Gotta understand this shit later
 function openTab(evt, tabName) {
