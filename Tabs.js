@@ -52,11 +52,11 @@ function openTab(tab)
         
         if (btn.innerHTML === tab.id)
         {
-            btn.className += " active";
+            btn.classList.add("active");
         }
         else
         {
-            btn.className = btn.className.replace(" active", "");
+            btn.classList.remove("active");
         }
     }
 }
