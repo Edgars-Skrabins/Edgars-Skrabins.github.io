@@ -33,18 +33,57 @@
             <button class="tablinks">Art</button>
           </div>
           
-          <div id="Skills" class="tabcontent">
+<!--          <div id="Skills" class="tabcontent">-->
+<!--            <h3>Skills</h3>-->
+<!--            <hr>-->
+<!--            <p class ="skill">C#</p>-->
+<!--            <p class ="skill">C++</p>-->
+<!--            <p class ="skill">Unity</p>-->
+<!--            <p class ="skill">Unreal Engine</p>-->
+<!--            <p class ="skill">High-poly modelling</p>-->
+<!--            <p class ="skill">PBR Texturing</p>-->
+<!--            <p class ="skill">Texture baking</p>-->
+<!--            <p class ="skill">Stylized Texturing</p>-->
+<!--          </div>-->
+
+        <div id="Skills" class="tabcontent">
             <h3>Skills</h3>
             <hr>
-            <p class ="skill">C#</p>
-            <p class ="skill">C++</p>
-            <p class ="skill">Unity</p>
-            <p class ="skill">Unreal Engine</p>
-            <p class ="skill">High-poly modelling</p>
-            <p class ="skill">PBR Texturing</p>
-            <p class ="skill">Texture baking</p>
-            <p class ="skill">Stylized Texturing</p>
-          </div>
+
+            <table id="SkillsTable">
+                <tr>
+                    <td class ="skill">C#</td>
+                    <td class ="skill">C++</td>
+                    <td class ="skill">HLSL</td>
+                </tr>
+                <tr>
+                    <td class ="skill">Shader Graph</td>
+                    <td class ="skill">Particle system VFX</td>
+                    <td class ="skill">Prop Animations</td>
+                </tr>
+                <tr>
+                    <td class ="skill">Hard-surface modelling</td>
+                    <td class ="skill">High-poly modelling</td>
+                    <td class ="skill">Stylized texturing</td>
+                </tr>
+                <tr>
+                    <td class ="skill">PBR Texturing</td>
+                    <td class ="skill">Texture baking</td>
+                    <td class ="skill">Low-poly modelling</td>
+                </tr>
+                <tr>
+                    <td class ="skill">Unity</td>
+                    <td class ="skill">Unreal Engine</td>
+                    <td class ="skill">Substance painter 3D</td>
+                </tr>
+                <tr>
+                    <td class ="skill">Marmoset Toolbag</td>
+                    <td class ="skill">Adobe Photoshop</td>
+                    <td class ="skill">Blender</td>
+                </tr>
+            </table>
+            
+        </div>
           
           <div id="Projects" class="tabcontent">
             <h3>Projects</h3>
@@ -84,15 +123,55 @@
             </div>
 
             <div class ="projectdiv">
-                <h4 class ="projectname"> Ninja Showdown </h4>
-                <a href="https://caxtnova.itch.io/ninja-showdown" target="_blank"><img src="Images/ninjashowdowntitle.png" alt="game title image" class ="projectimage" id="ninjashowdownimage"></a>
-                <p class ="projectdescription"> You play for high-score as a Ninja, you have the ability to pickup scrolls and learn new abilities or improvements.</p>
+                <h4 class ="projectname"> What's popping </h4>
+                <a href="https://edgars-skrabins.itch.io/whats-popping" target="_blank"><img src="Images/whatspoppingtitle.png" alt="game title image" class ="projectimage" id="whatspoppingimage"></a>
+                <p class ="projectdescription"> This is a simple clicker game where you pop balloons before they reach the top, while you also gain upgrades in the form of turrets. </p>
                 <h5> My contribution </h5>
                 <ul class ="projectcontributionlist">
-                    <li>All Environmental 3D Models</li>
-                    <li>Ability visual effects</li>
-                    <li>Water shader</li>
-                    <li>Player health system</li>
+                    <li>Turret upgrade system</li>
+                    <li>Balloon health system</li>
+                    <li>Balloon types and their mechanics</li>
+                    <li>UX design, including screen shake, animations, post processing effects and particle system effects</li>
+                    <li>Game loop design</li>
+                </ul>
+
+                <hr class="projecthr">
+            </div>
+
+            <div class ="projectdiv">
+                <h4 class ="projectname"> Dropwell </h4>
+                <a href="https://edgars-skrabins.itch.io/dropwell" target="_blank"><img src="Images/dropwelltitle.png" alt="game title image" class ="projectimage" id="dropwellimage"></a>
+                <p class ="projectdescription"> In Dropwell your task is simple, you lure the angry Skeletons into the well and use your abilities to survive for as long as you can. </p>
+                <h5> My contribution </h5>
+                <ul class ="projectcontributionlist">
+                    <li>All of it except SFX</li>
+                </ul>
+
+                <hr class="projecthr">
+            </div>
+              
+            <div class ="projectdiv">
+              <h4 class ="projectname"> Ninja Showdown </h4>
+              <a href="https://caxtnova.itch.io/ninja-showdown" target="_blank"><img src="Images/ninjashowdowntitle.png" alt="game title image" class ="projectimage" id="ninjashowdownimage"></a>
+              <p class ="projectdescription"> You play for high-score as a Ninja, you have the ability to pickup scrolls and learn new abilities or improvements.</p>
+              <h5> My contribution </h5>
+              <ul class ="projectcontributionlist">
+                  <li>All Environmental 3D Models</li>
+                  <li>Ability visual effects</li>
+                  <li>Water shader</li>
+                  <li>Player health system</li>
+              </ul>
+
+              <hr class="projecthr">
+            </div>
+
+            <div class ="projectdiv">
+                <h4 class ="projectname"> PolyBots </h4>
+                <a href="https://edgars-skrabins.itch.io/polybots" target="_blank"><img src="Images/polybotstitle.png" alt="game title image" class ="projectimage" id="polybotsimage"></a>
+                <p class ="projectdescription"> This is a Multiplayer prototype I made in Unity using Photon Pun 2, it's purpose was for me to get started with the process of making Multiplayer games </p>
+                <h5> My contribution </h5>
+                <ul class ="projectcontributionlist">
+                    <li>All of it except SFX</li>
                 </ul>
 
                 <hr class="projecthr">
@@ -146,6 +225,18 @@
                 <img loading="eager"
                      src="Images/kingarthurstoyswordcloseup.jpg"
                      alt="kingarthurstoyswordcloseup.jpg"
+                     class="artimage">
+                <img loading="eager"
+                     src="Images/cannon.jpg"
+                     alt="cannon.jpg"
+                     class="artimage">
+                <img loading="eager"
+                     src="Images/cannonmultiple.jpg"
+                     alt="cannonmultiple.jpg"
+                     class="artimage">
+                <img loading="eager"
+                     src="Images/iondagger.jpg"
+                     alt="iondagger.jpg"
                      class="artimage">
                 <img loading="eager"
                      src="Images/ninjato.jpg"
