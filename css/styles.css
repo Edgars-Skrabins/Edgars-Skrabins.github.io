@@ -31,12 +31,11 @@ body{
     overflow:auto;
 
     animation: bodystartup 1s forwards;
-
 }
 
 .backgroundimage{
-    background-image: url(/Images/mainbackground.png);
-    background-size: 50rem;
+    background-image: url(/Images/background.png);
+    background-size: 25rem;
     border-style: none;
     position: absolute;
     width: 100%;
@@ -44,7 +43,7 @@ body{
     margin: 0;
     padding: 0;
     z-index: -998;
-    filter: brightness(0.45);
+    filter: brightness(0.35);
 }
 
 @keyframes bodystartup{
@@ -60,7 +59,6 @@ body{
     width: 100%;
     height: 10rem;
     margin-bottom: 16rem;
-
 }
 
 .clickableContactLink{
@@ -81,7 +79,6 @@ body{
 
 .clickableContactLink:hover{
     filter: drop-shadow(0 0 .6rem rgba(255, 255, 255, 0.72));
-    /*transform: rotate(3deg);*/
     transform: scale(1.3);
 }
 
@@ -100,7 +97,6 @@ body{
     100%{
         transform: scale(.98);
     }
-    
 }
 
 .name{
@@ -161,10 +157,10 @@ body{
 }
 
 .middlecontainerbackgroundimage{
-    background-image: url(/Images/mainbackground_bright.png);
+    background-image: url(/Images/background.png);
 
-    filter: blur(0.07rem);
-    background-size: 50rem;
+    filter: brightness(0.85);
+    background-size: 70rem;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -239,7 +235,6 @@ body{
         transform: scale(0);
     }
     100%{
-
     }
   }
 
@@ -366,7 +361,7 @@ body{
 
 .skill{
     font-size: 1.9rem;
-    filter: drop-shadow(0 0 .3rem rgba(255, 255, 255, 0.42));
+    filter: drop-shadow(0 0 .3rem rgba(255, 255, 255, 0.2));
     font-weight: bolder;
     font-family: sans-serif;
     float: none;
@@ -414,22 +409,34 @@ body{
     border-style: solid;
 }
 
-.Artstation{
-    font-size: 1.3rem;
+#Artstation{
     color:rgb(81, 177, 255);
 }
 
-.Itch{
-    font-size: 1.3rem;
+#Itch{
     color: rgb(255, 101, 81);
 }
 
-.X{
-    font-size: 1.3rem;
+#X{
     color: black;
 }
 
-.Soundcloud{
-    font-size: 1.3rem;
+#Soundcloud{
     color: orange;    
+}
+
+.SocialsLink{
+    display:inline-block;
+    font-size: 1.8rem;
+    filter: drop-shadow(0 0 .35rem rgba(255, 255, 255, 0.41));
+    padding: 2.6rem;
+    padding-top: .8rem;
+    padding-bottom: 0.8rem;
+    
+    
+    transition: 0.3s;
+}
+
+.SocialsLink:hover{
+    transform: scale(1.5);
 }
