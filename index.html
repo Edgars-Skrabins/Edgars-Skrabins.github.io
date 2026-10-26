@@ -1,274 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Edgars Skrabiņš</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="favicon.ico?v=3">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edgars Skrabiņš — Senior Full Stack Developer</title>
+  <meta name="description" content="Edgars Skrabiņš — Senior Full Stack Developer in Riga, Latvia. React, Angular, TypeScript, Ruby on Rails, Java Spring, C++ and C#. Focused on maintainability, reliability and scalability.">
+  <meta name="author" content="Edgars Skrabiņš">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Edgars Skrabiņš — Senior Full Stack Developer">
+  <meta property="og:description" content="Senior Full Stack Developer with experience in web, software and game development. Based in Riga, Latvia.">
+  <meta property="og:url" content="https://edgars-skrabins.github.io/">
+  <meta name="theme-color" content="#0c0a0a">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
 </head>
 <body>
+<canvas id="particles" aria-hidden="true"></canvas>
+<div class="wrap">
+  <nav class="top">
+    <a href="#top" class="mark" aria-label="Edgars Skrabiņš">
+      <svg viewBox="0 0 34 34" aria-hidden="true"><rect x="5" y="5" width="24" height="24" transform="rotate(45 17 17)"/><text x="17" y="21.5" text-anchor="middle">ES</text></svg>
+    </a>
+    <ul class="mono"><li><a href="#experience">Experience</a></li><li><a href="#projects">Projects</a></li><li><a href="#skills">Skills</a></li><li><a href="#games">Games</a></li><li><a href="#contact">Contact</a></li></ul>
+  </nav>
 
-    <div class ="backgroundimage"></div>
-
-    <div class = "TopContainer">
-        <div class ="ProfileHeader">
-            <img class="ProfileIcon" src="Images/profileicon.png" alt="Profile icon">
-            <hr class ="ProfileHR">
-            <h1  class ="name">Edgars Skrabiņš</h1>
-            <p>Gameplay Systems Engineer & 3D Prop Artist</p>
-            <p class ="clickableContactLink"><a href="mailto:shiftkiro@gmail.com">Shiftkiro@gmail.com</a></p>
-        </div>
+  <section class="hero" id="top">
+    <div class="mono">Riga, Latvia</div>
+    <h1 class="display"><span>Edgars</span> <span>Skrabiņš</span></h1>
+    <div class="role">Senior Full Stack Developer</div>
+    <svg class="ornament" viewBox="0 0 440 40" aria-hidden="true"><path d="M0 20 H160 M280 20 H440 M160 20 C180 0 200 0 220 20 C240 40 260 40 280 20 M160 20 C180 40 200 40 220 20 C240 0 260 0 280 20 M220 6 V34 M208 20 H232"/></svg>
+    <p class="rotator" aria-hidden="true"></p>
+    <ul class="rotator__lines sr-only">
+      <li>Delivering features for mid to large sized companies using ERP web-apps</li>
+      <li>Building games in Unreal Engine and Unity</li>
+      <li>Developing a Game Engine in C++</li>
+      <li>Building responsive web-apps for desktop, mobile and tablet use</li>
+      <li>Developing tools for Game Developers</li>
+      <li>Designing solutions that reach thousands of clients</li>
+      <li>Designing safe and reliable solutions for critical business problems</li>
+      <li>Implementing dashboards for activity overview and user management</li>
+      <li>Implementing rules workflows for reliable and safe software testing</li>
+    </ul>
+    <div class="btns"><a class="btn fill" href="#contact">Get in touch</a><a class="btn" href="#experience">View experience</a></div>
+    <div class="facts">
+      <div><b>5+</b><span class="mono">Years in software</span></div>
+      <div><b>10+</b><span class="mono">Frameworks</span></div>
+      <div><b>50+</b><span class="mono">Projects</span></div>
+      <div><b>2100+</b><span class="mono">Contributions</span></div>
     </div>
+  </section>
 
-    <div class ="MiddleContainer">
+  <div class="head reveal" id="experience" data-label="Experience"><span class="mono">I</span><h2 class="display">Experience</h2></div>
+  <div class="jobs">
+    <div class="job reveal"><div><span class="mono when">02/2026 — 07/2026</span><span class="where">Excellent Business Solutions Eesti</span></div><div><h3>Senior Full Stack Developer</h3><ul>
+      <li>Implemented unit and end-to-end tests across React, Supabase and FastAPI, raising business-critical logic test coverage from near <b>0% to 80%</b>.</li>
+      <li>Analyzed the architecture of a newly created full stack ERP application, identified key business logic, stability and code quality concerns, then devised and implemented a solution plan with the team, <b>improving ticket cycle time by 30%</b> and <b>reducing stability issues</b>.</li>
+      <li>Delivered customer-requested features for a new ERP platform, including an <b>admin panel</b> for managing users and permissions and a <b>web-based configuration panel</b> that lets clients set up their company account with minimal consultant help.</li></ul></div></div>
+    <div class="job reveal"><div><span class="mono when">03/2025 — 02/2026</span><span class="where">Excellent Business Solutions Eesti</span></div><div><h3>Senior Frontend Developer</h3><ul>
+      <li>Created and maintained debugging and alert pipelines for development and production environments.</li>
+      <li>Improved application stability by investigating and resolving <b>over 60 production alerts</b> and customer-reported issues.</li>
+      <li>Developed and maintained unit and end-to-end tests, covering around <b>71% of the codebase</b>.</li>
+      <li>Integrated <b>AI into development workflows</b> with pre-commit review hooks, automated PR reviews and AI spec-driven feature development, <b>reducing ticket reopen rates</b>.</li>
+      <li>Delivered ERP features for mid to large scale companies, supporting a variety of workflows and custom solutions, <b>used by 200+ companies</b>.</li></ul></div></div>
+    <div class="job reveal"><div><span class="mono when">01/2024 — 03/2025</span><span class="where">Excellent Latvia</span></div><div><h3>Frontend Developer</h3><ul>
+      <li>Updated an ERP web application by developing new features and implementing unit tests.</li>
+      <li>Implemented a new UI design with responsive elements for desktop, mobile and tablet in <b>React Native</b>.</li>
+      <li>Refactored extensive legacy code to meet new design requirements and improve future maintainability.</li>
+      <li>Created core workflows for the development team and conducted code reviews.</li></ul></div></div>
+    <div class="job reveal"><div><span class="mono when">09/2024 — 02/2025</span><span class="where">Jauniešu programmēšanas &amp; tehnoloģiju centrs</span></div><div><h3>Game Development Teacher</h3><ul>
+      <li>Created and taught a curriculum for <b>game development in Unity</b>: editor navigation and features, plus UI creation, responsiveness, logic and interactions.</li>
+      <li>Taught Unity best practices for file organization, naming and project configuration.</li>
+      <li>Taught beginner and intermediate C#, plus good practices in naming, layout, architecture, design and performance.</li></ul></div></div>
+    <div class="job reveal"><div><span class="mono when">09/2023 — 01/2024</span><span class="where">Codelex</span></div><div><h3>Frontend Developer</h3><ul>
+      <li>Implemented blog website logic.</li>
+      <li>Moved an existing web application from <b>Angular CLI to Vue.js</b>.</li>
+      <li>Implemented blog and landing page designs in CSS for desktop, mobile and tablet.</li></ul></div></div>
+    <div class="job reveal"><div><span class="mono when">10/2021 — 09/2023</span><span class="where">Freelance</span></div><div><h3>Game Programmer</h3><ul>
+      <li>Implemented essential gameplay systems: weapon mechanics, abilities, player controls, inventory management and shops.</li>
+      <li>Developed matchmaking and multiplayer with <b>Photon</b> and <b>Netcode for GameObjects</b>.</li>
+      <li>Planned and managed several game projects to completion.</li></ul></div></div>
+  </div>
 
-        <div class ="middlecontainerbackgroundimage"></div>
+  <div class="head reveal" id="projects" data-label="Projects"><span class="mono">II</span><h2 class="display">Projects</h2></div>
+  <div class="projects">
+    <article class="proj main reveal">
+      <div><span class="mono">C++ · CMake · Metal</span><h3>3D Game Engine &amp; Editor</h3>
+        <p>A 3D game engine developed from scratch, with its own editor.</p>
+        <div class="metrics"><div><b>219+</b><span class="mono">GoogleTest tests</span></div><div><b>77%</b><span class="mono">Engine coverage</span></div></div></div>
+      <ul>
+        <li>Rendering abstraction layer with a Metal backend. Shaders are written once in HLSL and translated to Metal automatically through glslang and SPIRV-Cross.</li>
+        <li>Reflection system: a custom header tool generates type metadata that drives serialization.</li>
+        <li>C++ hot reload.</li>
+        <li>Dear ImGui editor with docking panels, inspector, asset browser, gizmos, undo/redo and play mode.</li>
+      </ul>
+    </article>
+    <article class="proj reveal"><span class="mono">Rails · Angular · TypeScript</span><h3>Project Management &amp; Documentation Platform</h3>
+      <p>A collaboration platform inspired by Confluence, Jira, Obsidian and Notion.</p>
+      <ul><li>Team and project management with role-based access control.</li><li>Documentation pages, Kanban boards and diagramming tools.</li><li>Authentication, document search and favorites, around modular business functionality.</li></ul></article>
+    <article class="proj reveal"><span class="mono">Java Spring · Angular · TypeScript</span><h3>Full Stack Loan Platform</h3>
+      <p>Loan management covering the whole application lifecycle.</p>
+      <ul><li>Create, approve, decline and cancel loan applications.</li><li>User accounts, activity tracking and audit logging.</li><li>Role-based authorization, validation, business rules and automated tests.</li></ul></article>
+    <article class="proj reveal"><span class="mono">Unity · C# · Photon PUN</span><h3>Digital Multiplayer Card Game</h3>
+      <p>A multiplayer card game inspired by the Karakum tabletop game.</p>
+      <ul><li>Lobbies, plus disconnect and reconnect handling.</li><li>Server-authoritative gameplay and randomized chance rolls.</li><li>Event-driven, rule-based validation of every player action.</li></ul></article>
+  </div>
 
-        <div class="tab">
-            <button class="tablinks">Skills</button>
-            <button class="tablinks">Projects</button>
-            <button class="tablinks">Art</button>
-          </div>
-        
-        <div id="Skills" class="tabcontent">
-            <h3>Skills</h3>
-            <hr>
+  <div class="head reveal" id="skills" data-label="Skills &amp; Tools"><span class="mono">III</span><h2 class="display">Skills &amp; Tools</h2></div>
+  <div class="skills reveal">
+    <div class="skill"><h3>Languages</h3><p><span class="tag">TypeScript</span><span class="tag">C#</span><span class="tag">C++</span><span class="tag">Java</span><span class="tag">Ruby</span><span class="tag">Python</span></p></div>
+    <div class="skill"><h3>Frontend</h3><p><span class="tag">React</span><span class="tag">React Native</span><span class="tag">Angular</span><span class="tag">Vue.js</span><span class="tag">HTML</span><span class="tag">CSS</span></p></div>
+    <div class="skill"><h3>Backend</h3><p><span class="tag">Ruby on Rails</span><span class="tag">Spring Boot</span><span class="tag">FastAPI</span><span class="tag">Node.js</span><span class="tag">REST APIs</span></p></div>
+    <div class="skill"><h3>Databases</h3><p><span class="tag">PostgreSQL</span><span class="tag">Supabase</span><span class="tag">SQL</span><span class="tag">SQLite</span></p></div>
+    <div class="skill"><h3>Testing</h3><p><span class="tag">Jest</span><span class="tag">Cypress</span><span class="tag">Playwright</span><span class="tag">JUnit</span><span class="tag">NUnit</span><span class="tag">GoogleTest</span><span class="tag">Unit, integration &amp; E2E</span></p></div>
+    <div class="skill"><h3>Architecture</h3><p><span class="tag">OOP</span><span class="tag">SOLID</span><span class="tag">Design Patterns</span><span class="tag">Clean Architecture</span><span class="tag">Microservices</span></p></div>
+    <div class="skill"><h3>Tools &amp; DevOps</h3><p><span class="tag">Git</span><span class="tag">Docker</span><span class="tag">CI/CD</span><span class="tag">CMake</span><span class="tag">Pre-commit hooks</span><span class="tag">Code quality automation</span></p></div>
+    <div class="skill"><h3>AI Workflows</h3><p><span class="tag">AI integrations</span><span class="tag">AI-assisted development</span><span class="tag">AI code reviews</span><span class="tag">PR automation</span></p></div>
+    <div class="skill"><h3>Game Development</h3><p><span class="tag">Unity</span><span class="tag">Unreal Engine</span><span class="tag">Godot</span><span class="tag">Photon PUN</span><span class="tag">Unity NGO</span></p></div>
+  </div>
+  <div class="langs reveal"><span class="mono">Spoken</span><span><b>Latvian</b><span class="mono">Native</span></span><span><b>English</b><span class="mono">Fluent</span></span><span><b>Russian</b><span class="mono">Conversational</span></span></div>
 
-            <table id="SkillsTable">
-                <tr>
-                    <td class ="skill">C#</td>
-                    <td class ="skill">C++</td>
-                    <td class ="skill">HLSL</td>
-                </tr>
-                <tr>
-                    <td class ="skill">Shader Graph</td>
-                    <td class ="skill">Particle system VFX</td>
-                    <td class ="skill">Prop Animations</td>
-                </tr>
-                <tr>
-                    <td class ="skill">Hard-surface modelling</td>
-                    <td class ="skill">High-poly modelling</td>
-                    <td class ="skill">Stylized texturing</td>
-                </tr>
-                <tr>
-                    <td class ="skill">PBR Texturing</td>
-                    <td class ="skill">Texture baking</td>
-                    <td class ="skill">Low-poly modelling</td>
-                </tr>
-                <tr>
-                    <td class ="skill">Unity</td>
-                    <td class ="skill">Unreal Engine</td>
-                    <td class ="skill">Substance painter 3D</td>
-                </tr>
-                <tr>
-                    <td class ="skill">Marmoset Toolbag</td>
-                    <td class ="skill">Adobe Photoshop</td>
-                    <td class ="skill">Blender</td>
-                </tr>
-            </table>
-            
-        </div>
-          
-          <div id="Projects" class="tabcontent">
-            <h3>Projects</h3>
-            <hr>
-            <div class ="projectdiv">
-                <h4 class ="projectname"> Killbox </h4>
-                <a href="https://edgars-skrabins.itch.io/killbox" target="_blank"><img src="Images/killboxtitle.png" alt="game title image" class ="projectimage" id="killboximage"></a>
-                <p class ="projectdescription"> In Killbox, you fight for a high-score, while every 11 seconds you are given a different weapon at random. </p>
-                <h5> My contribution </h5>
-                <ul class ="projectcontributionlist">
-                    <li>Weapon systems</li>
-                    <li>Enemy spawn system</li>
-                    <li>All 3D Models</li>
-                    <li>Most of Weapon muzzle flash, impact and bullet Visual effects</li>
-                    <li>Game design</li>
-                </ul>
+  <div class="head reveal" id="games" data-label="Games &amp; 3D Art"><span class="mono">IV</span><h2 class="display">Games &amp; 3D Art</h2></div>
+  <div class="games reveal">
+    <a href="https://edgars-skrabins.itch.io/killbox" target="_blank" rel="noopener"><img src="Images/killboxtitle.png" loading="lazy" alt="Killbox"></a>
+    <a href="https://edgars-skrabins.itch.io/bionic-rebirth" target="_blank" rel="noopener"><img src="Images/bionicrebirthtitle.png" loading="lazy" alt="Bionic Rebirth"></a>
+    <a href="https://edgars-skrabins.itch.io/dropwell" target="_blank" rel="noopener"><img src="Images/dropwelltitle.png" loading="lazy" alt="Dropwell"></a>
+    <a href="https://edgars-skrabins.itch.io/polybots" target="_blank" rel="noopener"><img src="Images/polybotstitle.png" loading="lazy" alt="PolyBots"></a>
+    <a href="https://edgars-skrabins.itch.io/whats-popping" target="_blank" rel="noopener"><img src="Images/whatspoppingtitle.png" loading="lazy" alt="What's Popping"></a>
+    <a href="https://caxtnova.itch.io/ninja-showdown" target="_blank" rel="noopener"><img src="Images/ninjashowdowntitle.png" loading="lazy" alt="Ninja Showdown"></a>
+  </div>
+  <div class="gallery reveal">
+    <a href="Images/highres/arcanerunesword.jpg" target="_blank" rel="noopener"><img src="Images/arcanerunesword.jpg" alt="Arcane rune sword" loading="lazy"></a>
+    <a href="Images/highres/crystalwarhammer.jpg" target="_blank" rel="noopener"><img src="Images/crystalwarhammer.jpg" alt="Crystal warhammer" loading="lazy"></a>
+    <a href="Images/highres/caldwellrival78.jpg" target="_blank" rel="noopener"><img src="Images/caldwellrival78.jpg" alt="Caldwell Rival 78 rifle" loading="lazy"></a>
+    <a href="Images/highres/crossbow_stylized.jpg" target="_blank" rel="noopener"><img src="Images/crossbow_stylized.jpg" alt="Stylized crossbow" loading="lazy"></a>
+    <a href="Images/highres/iondagger.jpg" target="_blank" rel="noopener"><img src="Images/iondagger.jpg" alt="Ion dagger" loading="lazy"></a>
+    <a href="Images/highres/cannon.jpg" target="_blank" rel="noopener"><img src="Images/cannon.jpg" alt="Cannon" loading="lazy"></a>
+    <a href="Images/highres/kingarthurstoysword.jpg" target="_blank" rel="noopener"><img src="Images/kingarthurstoysword.jpg" alt="King Arthur's toy sword" loading="lazy"></a>
+    <a href="Images/highres/army45.jpg" target="_blank" rel="noopener"><img src="Images/army45.jpg" alt="Army .45 pistol" loading="lazy"></a>
+    <a href="Images/highres/ninjato.jpg" target="_blank" rel="noopener"><img src="Images/ninjato.jpg" alt="Ninjato" loading="lazy"></a>
+    <a href="Images/highres/scifigrenade.jpg" target="_blank" rel="noopener"><img src="Images/scifigrenade.jpg" alt="Sci-fi grenade" loading="lazy"></a>
+    <a href="Images/highres/groundcrack-blue.jpg" target="_blank" rel="noopener"><img src="Images/groundcrack-blue.jpg" alt="Ground crack effect" loading="lazy"></a>
+    <a href="Images/highres/crossbow_dark.jpg" target="_blank" rel="noopener"><img src="Images/crossbow_dark.jpg" alt="Dark crossbow" loading="lazy"></a>
+  </div>
 
-                <hr class="projecthr">
-            </div>
-
-            <div class ="projectdiv">
-                <h4 class ="projectname"> Bionic Rebirth </h4>
-                <a href="https://edgars-skrabins.itch.io/bionic-rebirth" target="_blank"><img src="Images/bionicrebirthtitle.png" alt="game title image" class ="projectimage" id="bionicrebirthimage"></a>
-                <p class ="projectdescription"> You are a man who was once known as "August", 
-                    now only an experiment in a science facility that converts humans into AI killing machines. 
-                    You wake up in the perfect time, as a rogue AI has risen to power and taken over the facility. </p>
-                <h5> My contribution </h5>
-                <ul class ="projectcontributionlist">
-                    <li>Gun system</li>
-                    <li>Laser and turret systems</li>
-                    <li>Laser,drone shot and boss shield visual effects</li>
-                    <li>Gun 3D Model</li>
-                    <li>Level design</li>
-                </ul>
-
-                <hr class="projecthr">
-            </div>
-
-            <div class ="projectdiv">
-                <h4 class ="projectname"> What's popping </h4>
-                <a href="https://edgars-skrabins.itch.io/whats-popping" target="_blank"><img src="Images/whatspoppingtitle.png" alt="game title image" class ="projectimage" id="whatspoppingimage"></a>
-                <p class ="projectdescription"> This is a simple clicker game where you pop balloons before they reach the top, while you also gain upgrades in the form of turrets. </p>
-                <h5> My contribution </h5>
-                <ul class ="projectcontributionlist">
-                    <li>Turret upgrade system</li>
-                    <li>Balloon health system</li>
-                    <li>Balloon types and their mechanics</li>
-                    <li>UX design, including screen shake, animations, post processing effects and particle system effects</li>
-                    <li>Game loop design</li>
-                </ul>
-
-                <hr class="projecthr">
-            </div>
-
-            <div class ="projectdiv">
-                <h4 class ="projectname"> Dropwell </h4>
-                <a href="https://edgars-skrabins.itch.io/dropwell" target="_blank"><img src="Images/dropwelltitle.png" alt="game title image" class ="projectimage" id="dropwellimage"></a>
-                <p class ="projectdescription"> In Dropwell your task is simple, you lure the angry Skeletons into the well and use your abilities to survive for as long as you can. </p>
-                <h5> My contribution </h5>
-                <ul class ="projectcontributionlist">
-                    <li>All of it except SFX</li>
-                </ul>
-
-                <hr class="projecthr">
-            </div>
-              
-            <div class ="projectdiv">
-              <h4 class ="projectname"> Ninja Showdown </h4>
-              <a href="https://caxtnova.itch.io/ninja-showdown" target="_blank"><img src="Images/ninjashowdowntitle.png" alt="game title image" class ="projectimage" id="ninjashowdownimage"></a>
-              <p class ="projectdescription"> You play for high-score as a Ninja, you have the ability to pickup scrolls and learn new abilities or improvements.</p>
-              <h5> My contribution </h5>
-              <ul class ="projectcontributionlist">
-                  <li>All Environmental 3D Models</li>
-                  <li>Ability visual effects</li>
-                  <li>Water shader</li>
-                  <li>Player health system</li>
-              </ul>
-
-              <hr class="projecthr">
-            </div>
-
-            <div class ="projectdiv">
-                <h4 class ="projectname"> PolyBots </h4>
-                <a href="https://edgars-skrabins.itch.io/polybots" target="_blank"><img src="Images/polybotstitle.png" alt="game title image" class ="projectimage" id="polybotsimage"></a>
-                <p class ="projectdescription"> This is a Multiplayer prototype I made in Unity using Photon Pun 2, it's purpose was for me to get started with the process of making Multiplayer games </p>
-                <h5> My contribution </h5>
-                <ul class ="projectcontributionlist">
-                    <li>All of it except SFX</li>
-                </ul>
-
-                <hr class="projecthr">
-            </div>
-
-            </div>
-
-          <div id="Art" class="tabcontent">
-            <h3>Art</h3>
-            <hr>
-            <div class ="artimages">
-                
-                <img loading="eager"
-                     src="Images/arcanerunesword.jpg"
-                     alt="arcanerunesword.jpg"
-                     class="artimage">
-                
-                <img loading="eager"
-                     src="Images/crystalwarhammer.jpg"
-                     alt="crystalwarhammer.jpg"
-                     class="artimage">
-
-                <img loading="eager"
-                     src="Images/crystalwarhammer_top.jpg"
-                     alt="crystalwarhammer_top.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/scifigrenade.jpg"
-                     alt="scifigrenade.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/caldwellrival78.jpg"
-                     alt="caldwellrival78.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/caldwellrival78closeup.jpg"
-                     alt="caldwellrival78closeup.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/crossbow_dark.jpg"
-                     alt="crossbow_dark.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/crossbow_stylized.jpg"
-                     alt="crossbow_stylized.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/kingarthurstoysword.jpg"
-                     alt="kingarthurstoysword.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/kingarthurstoyswordcloseup.jpg"
-                     alt="kingarthurstoyswordcloseup.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/cannon.jpg"
-                     alt="cannon.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/cannonmultiple.jpg"
-                     alt="cannonmultiple.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/iondagger.jpg"
-                     alt="iondagger.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/ninjato.jpg"
-                     alt="ninjato.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/army45.jpg"
-                     alt="army45.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/groundcrack.jpg"
-                     alt="groundcrack.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/groundcrack-green.jpg"
-                     alt="groundcrack-green.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/groundcrack-blue.jpg"
-                     alt="groundcrack-blue.jpg"
-                     class="artimage">
-                <img loading="eager"
-                     src="Images/groundcrack-lightblue.jpg"
-                     alt="groundcrack-lightblue.jpg"
-                     class="artimage">
-
-            </div>
-
-            <br>
-            <hr>
-            <br>
-
-          </div>
-          <div class ="middlecontainerbottomline"></div>
-
-          <script src="Tabs.js"></script>               
-
-    </div>
-
-    <div class="BottomContainer">
-        <h2>Socials</h2>
-        <hr class="SocialsHR">
-        <p id="Artstation" class ="SocialsLink"><a href="https://www.artstation.com/edgars_skrabins">Artstation</a></p>
-        <p id="Itch" class ="SocialsLink"><a href="https://edgars-skrabins.itch.io/">Itch</a></p>
-        <p id="X" class ="SocialsLink"><a href="https://twitter.com/Edgars_Skrabins">X</a></p>
-        <p id="Soundcloud" class ="SocialsLink"><a href="https://soundcloud.com/edgarsskrabins">Soundcloud</a></p>
-    </div>
-    
+  <section class="contact reveal" id="contact" data-label="Contact">
+    <span class="mono">V</span>
+    <h2 class="display">Let's build something awesome!</h2>
+    <div class="btns"><a class="btn fill" href="mailto:edgars.skrabins@gmail.com">edgars.skrabins@gmail.com</a></div>
+    <div class="links mono"><a href="https://www.linkedin.com/in/edgars-skrabins" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/edgars-skrabins" target="_blank" rel="noopener">GitHub</a><a href="https://edgars-skrabins.itch.io" target="_blank" rel="noopener">itch.io</a></div>
+  </section>
+  <footer class="mono"><span>© 2026 Edgars Skrabiņš</span><span>References on request</span></footer>
+</div>
 </body>
 </html>
