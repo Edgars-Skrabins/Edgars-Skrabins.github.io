@@ -56,6 +56,8 @@ nav.top ul a:hover::after { transform: scaleX(1); }
   100% { opacity: 0; }
 }
 .role { margin-top: 22px; font: 500 14px 'Manrope', sans-serif; letter-spacing: .32em; text-transform: uppercase; opacity: .85; }
+.email { display: inline-block; margin-top: 14px; font: 14px 'JetBrains Mono', monospace; letter-spacing: .06em; color: var(--muted); transition: color .25s; }
+.email:hover { color: var(--accent-2); }
 .ornament { width: min(440px, 82%); height: 40px; margin: 34px auto; display: block; }
 .ornament path { fill: none; stroke: var(--accent); stroke-width: 1.2; stroke-dasharray: 600; stroke-dashoffset: 600; animation: draw 2.4s .6s ease-out forwards; }
 @keyframes draw { to { stroke-dashoffset: 0; } }
