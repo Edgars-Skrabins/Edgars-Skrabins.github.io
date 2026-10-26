@@ -113,6 +113,8 @@ nav.top ul a:hover::after { transform: scaleX(1); }
 .proj .mono { font-size: 13px; }
 .proj p { color: color-mix(in srgb, var(--text) 72%, var(--muted)); font-size: 17.5px; margin-bottom: 18px; }
 .metrics { display: flex; gap: 44px; margin-top: 26px; }
+.repo { display: inline-block; margin-top: 24px; padding-bottom: 3px; color: var(--accent-2); border-bottom: 1px solid color-mix(in srgb, var(--accent) 40%, transparent); transition: color .25s, border-color .25s; }
+.repo:hover { color: var(--text); border-color: var(--accent); }
 .metrics b { display: block; font-family: var(--display); font-weight: 600; font-size: 58px; line-height: 1; color: var(--accent); }
 
 .skills { display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px 48px; }
